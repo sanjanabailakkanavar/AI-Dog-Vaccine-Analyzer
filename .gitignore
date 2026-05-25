@@ -1,4 +1,40 @@
+# Python cache
 __pycache__/
-*.log
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Environment variables
 .env
+
+# Logs
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# Upload folders
 uploads/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
